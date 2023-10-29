@@ -1,9 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:ital,wght@1,800&family=Ubuntu:wght@300&display=swap');
 
-
-
-/*dispositivos grandes*/
 #main-content{
     width: 80%;
     margin-left: 10%;
@@ -16,11 +13,14 @@
 
 }
 
+
 html{
     font-size: 1rem;
     height: 100%;
    
+    
 }
+
 
 
 p{font-family: 'Ubuntu', sans-serif;
@@ -50,6 +50,7 @@ main{
     background-color: rgb(255, 255, 255);
     
 }
+
 
 
 .footer{
@@ -105,7 +106,6 @@ main>aside{
     width: auto;
     display: inline-block;
     margin-right: 750px ;
-    margin-bottom: 40px;
 }
 
 .header-menubar ul{
@@ -150,6 +150,7 @@ main>aside{
 }
 
 
+
 ::selection{
     background-color: rgb(183, 222, 232);
  }
@@ -170,7 +171,7 @@ main>aside{
 .secciones{
     /*border: 2px rgb(110, 221, 164) solid;*/
     min-height: 50px;
-    margin: 0.5rem;0
+    margin: 0.5rem;
 }
 
 .secciones article{
@@ -216,82 +217,3 @@ img:hover{
     float: left;
     width: 487px;
 }
-
-
-/*@media queries*/
-
-
-/*dispositivos pequeños*/
-@media screen and (min-width:0px) and (max-width:673px){
-   body{
-    background-color: yellow;
-   }
-   .container{
-    grid-template-columns: 1fr;
-    }
-    }
-
-
-/*dispositivos medianos*/
-@media screen and (min-width:673px) and (max-width:990px){
-    body{
-    background-color: rgb(93, 93, 246);
-    }
-    .container{
-        grid-template-columns: 1fr 1fr;
-        }
-    
-}
-
-
-/*dispositivos grandes*/
-@media screen and (min-width:991px) and (max-width:1296px){
-    body{
-        background-color: rgb(126, 226, 55);
-    }
-    .container{
-        grid-template-columns: 1fr 1fr 1fr;
-        }
-  
-}
-
-
-
-/* Definición de la cuadrícula */
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual ancho */
-    grid-gap: 20px; /* Espacio entre las celdas */
-    padding: 20px;
-}
-
-/* Estilos para los elementos dentro de la cuadrícula */
-.article {
-    border: 1px solid #ddd;
-    padding: 10px;
-    /* filtros fotograficos */
-    transition: 0.3s;
-    }
-  
-.article img {
-    max-width:auto;
-
-}
-
-/* Estilos para encabezados y otros elementos */
-h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-p {
-    font-size: 16px;
-}
-
-
-
-
-
-
-
-
